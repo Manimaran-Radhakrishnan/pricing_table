@@ -1,0 +1,63 @@
+#root{
+  background-color:white;
+  width:100%;
+  height: 100%;
+}
+h1{
+  text-align: center;
+}
+
+.total {
+  background-color: aliceblue;
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+}
+.first {
+  color: black;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+.second {
+  padding-left: 30px;
+}
+.button {
+  margin-top: 30px;
+  width: 320px;
+  height: 50px;
+  color: aliceblue;
+  border: antiquewhite;
+  border-radius: 30px;
+  margin-left: 15px;
+  background-color: darkblue;
+}
+.price {
+  font-size: 30px;
+  margin-top: 0;
+}
+.list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  justify-items: center;
+  gap: 30px;
+
+}
+.total:hover {
+  box-shadow: 0 0.5rem 1rem 0 rgba(18, 5, 5, 0.3);
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  background-color:antiquewhite;
+}
+
+.button:hover {
+  background-color:aqua;
+  color:black;
+}
+.month {
+  font-size: 15px;
+}
